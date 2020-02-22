@@ -113,3 +113,8 @@ export default App;
 ```
 
 **Arquivo `index.js` e o primeiro a ser renderizado no ReactJS.**
+
+## Instalação `axios`
+```bash
+npm install axios
+```

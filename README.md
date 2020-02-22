@@ -76,4 +76,40 @@ Configurações Particular
 - \public arquivos que usuário pode ver
 - \src diretório que ficará todo código da aplicação 
 
-**TESTE**
+**Deletar arquivos**
+
+```bash
+App.css
+App.test.js
+index.css
+logo.svg
+setupTests.js
+```
+
+**Remover import**
+
+```javascript
+// \src\index.js
+
+import './index.css';
+```
+
+**Deletar import e conteúdo do header, conforme abaixo**
+```javascript
+import React from 'react';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Hello Frontweb</h1>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+Arquivo `index.js` e o primeiro a ser renderizado no ReactJS.

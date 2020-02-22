@@ -71,12 +71,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 Configurações Particular
 ==================================
 
-**Pastas**
+## Pastas
 
 - \public arquivos que usuário pode ver
 - \src diretório que ficará todo código da aplicação 
 
-**Deletar arquivos**
+## Deletar arquivos
 
 ```bash
 App.css
@@ -86,7 +86,7 @@ logo.svg
 setupTests.js
 ```
 
-**Remover import**
+## Remover import
 
 ```javascript
 // \src\index.js
@@ -94,7 +94,7 @@ setupTests.js
 import './index.css';
 ```
 
-**Deletar import e conteúdo do header, conforme abaixo**
+## Deletar import e conteúdo do header, conforme abaixo
 ```javascript
 import React from 'react';
 
@@ -112,4 +112,4 @@ export default App;
 
 ```
 
-Arquivo `index.js` e o primeiro a ser renderizado no ReactJS.
+**Arquivo `index.js` e o primeiro a ser renderizado no ReactJS.**

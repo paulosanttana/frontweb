@@ -118,3 +118,8 @@ export default App;
 ```bash
 npm install axios
 ```
+
+## Intalação `react-router-dom`
+```bash
+npm install react-router-dom
+```
